@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Marwa ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-card">
+        <p class="eyebrow">A little something for you</p>
+        <h1>Happy Birthday,<br><span>Marwa</span> ♡</h1>
+        <p class="subtitle">A tiny corner of the internet made just for you.</p>
+        <button class="open-btn" id="openBtn">Open Your Gift <span>♡</span></button>
+      </div>
+    </section>
+
+    <section class="content" id="gift">
+      <div class="section-intro reveal">
+        <p class="eyebrow">September 6, 2026</p>
+        <h2>Today is all about <em>you.</em></h2>
+        <p>There are some things that deserve more than a simple “Happy Birthday.”</p>
+      </div>
+
+      <div class="photo-grid reveal">
+        <!-- PHOTO 01: put your image inside the images folder and change the file name below if needed -->
+        <figure class="photo-card">
+          <img src="images/photo01.jpg" alt="Memory with Marwa" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="photo placeholder" style="display:none"><span>Add photo 01</span></div>
+          <figcaption>Write your little message for this photo here ♡</figcaption>
+        </figure>
+
+        <figure class="photo-card tall-card">
+          <img src="images/photo02.jpg" alt="Memory with Marwa" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="photo placeholder tall" style="display:none"><span>Add photo 02</span></div>
+          <figcaption>Write your little message for this photo here ♡</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/photo03.jpg" alt="Memory with Marwa" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="photo placeholder" style="display:none"><span>Add photo 03</span></div>
+          <figcaption>Write your little message for this photo here ♡</figcaption>
+        </figure>
+
+        <figure class="photo-card wide-card">
+          <img src="images/photo04.jpg" alt="Memory with Marwa" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="photo placeholder wide" style="display:none"><span>Add photo 04</span></div>
+          <figcaption>Write your little message for this photo here ♡</figcaption>
+        </figure>
+
+        <figure class="photo-card">
+          <img src="images/photo05.jpg" alt="Memory with Marwa" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="photo placeholder" style="display:none"><span>Add photo 05</span></div>
+          <figcaption>Write your little message for this photo here ♡</figcaption>
+        </figure>
+
+        <figure class="photo-card tall-card">
+          <img src="images/photo06.jpg" alt="Memory with Marwa" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="photo placeholder tall" style="display:none"><span>Add photo 06</span></div>
+          <figcaption>Write your little message for this photo here ♡</figcaption>
+        </figure>
+      </div>
+
+      <section class="letter reveal">
+        <div class="letter-card">
+          <p class="eyebrow">A letter for you</p>
+          <h2>Dear Marwa,</h2>
+          <div class="birthday-message">
+            <p>Happy Birthday to the most beautiful person in my life.</p>
+            <p>I honestly don’t think you realize how much you mean to me. Having you in my life has been one of the most beautiful things that ever happened to me. You came into my life and, little by little, became such a big part of my heart and my happiness.</p>
+            <p>I love you more than I could ever explain with words. I love everything about you — your smile, your voice, your laugh, your personality, and even all the little things that you probably don’t notice about yourself but mean so much to me.</p>
+            <p>You have made so many ordinary moments feel special just because you were there. Being with you, talking to you, laughing with you, and simply having you in my life are things I will always be grateful for.</p>
+            <p>On your birthday, I just want you to know that my biggest wish is to always see you happy. I want to be there for you, to support you, to celebrate your happiest moments, and to make so many more beautiful memories with you.</p>
+            <p>No matter how much I write, I don't think words will ever be enough to describe how much I love you and how important you are to me.</p>
+            <p><strong>You are not just the person I love… you are one of the most beautiful parts of my life.</strong></p>
+            <p>Happy Birthday, my love. ❤️</p>
+            <p>I hope this is only one of the many birthdays I get to celebrate with you, and I hope we get to spend many more beautiful years, moments, laughs, and memories together.</p>
+            <p><strong>I love you today, tomorrow, and more than you will ever know. ❤️</strong></p>
+          </div>
+          <p class="signature">With all my love,<br>Youssef ♡</p>
+        </div>
+      </section>
+
+      <section class="song reveal">
+        <div class="song-card">
+          <div class="disc">♪</div>
+          <div>
+            <p class="eyebrow">Our song</p>
+            <h2>Those Eyes</h2>
+            <p>Press play and let the memories do the rest.</p>
+          </div>
+          <button class="play-btn" id="playBtn" aria-label="Play song">▶</button>
+        </div>
+        <audio id="song" src="music/those-eyes.mp3"></audio>
+        <p class="small-note">This song starts from 1:35 ♡</p>
+      </section>
+
+      <section class="countdown reveal">
+        <p class="eyebrow">A new chapter</p>
+        <h2>Birthday countdown</h2>
+        <div class="timer">
+          <div><strong id="days">--</strong><span>Days</span></div>
+          <div><strong id="hours">--</strong><span>Hours</span></div>
+          <div><strong id="minutes">--</strong><span>Minutes</span></div>
+          <div><strong id="seconds">--</strong><span>Seconds</span></div>
+        </div>
+      </section>
+
+      <footer>
+        <div>Made especially for Marwa ♡</div>
+        <div class="footer-heart">♡</div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
